@@ -58,7 +58,7 @@ $(document).ready(function() {
 
                         },
                         type : 'POST',
-                        url : '/process'
+                        url : '/open_api/process'
                 })
                 .done(function(data) {
 
