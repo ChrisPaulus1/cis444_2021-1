@@ -15,6 +15,16 @@ def get_db_instance():
 if __name__ == "__main__":
     db, cur = get_db_instance()
 
+   # cur.execute("create table FormData ( email varchar(255), name varchar(255), message varchar(255));")
+
+
+    #db.commit()
+
+
+
+
+
+
     #cur.execute("select * from users")
     #for r in cur.fetchall():
      #      print(r)
